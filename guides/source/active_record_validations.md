@@ -577,7 +577,7 @@ which would result in a `NULL` value in most cases.
 ### `absence`
 
 This helper validates that the specified attributes are absent. It uses the
-`present?` method to check if the value is not either nil or a blank string, that
+`present?` method to check if the value is either nil or a blank string, that
 is, a string that is either empty or consists of whitespace.
 
 ```ruby
